@@ -70,14 +70,14 @@ Contacts.prototype.display = function() {
 
 //	var ask = console.log("1: List Contacts\n2: Add a contact\n0: Quit the app");
 
-console.log("This is ask: " + ask);
+//console.log("This is ask: " + ask); // this was used to check the value of the prompt's answer
 
-var on = 1;
+var on = 1; // use for input validation
 
-	var contacts = new Contacts;
+	var contacts = new Contacts; // this will be used to access the Contact method
 
 		// our welcome message
-		console.log("Welcome to Simple Contacts Manager\n\n");
+		console.log("Welcome to Simple Contacts Manager\n\n"); // a welcome message
 
 	do
 	{
