@@ -41,7 +41,8 @@ Contacts.prototype.add = function (fname, lname) {
 	console.log("Done adding " +
 				fname + " " +
 				lname + 
-				" to contact list\n");
+				" to contact list\n"
+	);
 } // end the arr prototype
 
 
@@ -74,10 +75,10 @@ Contacts.prototype.display = function() {
 
 var on = 1; // use for input validation
 
-	var contacts = new Contacts; // this will be used to access the Contact method
+var contacts = new Contacts; // this will be used to access the Contact method
 
-		// our welcome message
-		console.log("Welcome to Simple Contacts Manager\n\n"); // a welcome message
+// our welcome message
+console.log("Welcome to Simple Contacts Manager\n\n"); // a welcome message
 
 	do
 	{
