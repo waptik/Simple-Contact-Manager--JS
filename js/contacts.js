@@ -12,7 +12,7 @@ function Contacts () {
 	// now let's push new contacts into the arrays
 	this.list = [];
 	this.fname = ["John", "Jane"];
-	this.lname = ["Woo", "Doe"];
+	this.lname = ["Smith", "Doe"];
 	this.list.push(
 		(this.fname[0] + " " + this.lname[0]), 
 		(this.fname[1] + " " + this.lname[1]),
